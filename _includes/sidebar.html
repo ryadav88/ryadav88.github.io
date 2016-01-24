@@ -6,6 +6,12 @@
     </div>
 
     <ul class="sidebar-nav">
+      <p>
+        <a href="/">Ravi Yadav</a>, Developer Evangelist</a> 
+        for
+        <a href="https://www.weather.com/">The Weather Channel</a> and <a href="https://www.weatherunderground.com/">Weather Underground</a>. 
+      </p>
+      <p>
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
         <a href="/">Home</a>
       </li>
@@ -26,8 +32,9 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><p><a href="https://github.com/ryadav88">ryadav88</a> on Github</p></li>
-      <li class="sidebar-nav-item"><p><a href="https://twitter.com/RaaveYadav">RaaveYadav</a> on Twitter</p></li>
+      <li class="sidebar-nav-item"><a href="https://github.com/ryadav88">ryadav88</a> on Github</li>
+      <li class="sidebar-nav-item"><a href="https://twitter.com/RaaveYadav">RaaveYadav</a> on Twitter</li>
+      </p>
     </ul>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
