@@ -9,7 +9,7 @@ weather conditions for that location.
 
 -----
 
-![WeatherBot](../images/slack_slash.png){:height="580px" width="670px"}
+![WeatherBot](/images/slack_slash.png){:height="580px" width="670px"}
 
 ## What's a Slash command?
 
@@ -186,12 +186,12 @@ heroku config:add WU_ACCESS=[your API key]
 {% endhighlight %}
 
 Check the Heroku dashboard to see if your app is there.
-![Heroku dashboard](../images/heroku_dashboard.png){:height="360px" width="680px" border="1"}
+![Heroku dashboard](/images/heroku_dashboard.png){:height="360px" width="680px" border="1"}
 
 ### Slack setup
 Open slack, go to your team's [custom integration page](https://my.slack.com/services/new/slash-commands){:target="_blank"} and add a slash command.
 
-![Slack integration](../images/slack_int_1.png){:height="560px" width="680px"}
-![Slack integration2](../images/slack_int_2.png){:height="560px" width="680px"}
+![Slack integration](/images/slack_int_1.png){:height="560px" width="680px"}
+![Slack integration2](/images/slack_int_2.png){:height="560px" width="680px"}
 
 All set! Go ahead and try out WeatherBot.
