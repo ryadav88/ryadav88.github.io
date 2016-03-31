@@ -20,10 +20,10 @@ Messages that start with a slash. The message from the slash command is sent to 
 Some examples of built-in slash commands are
 
 * /giphy : it posts a random gif to a channel
-![GiphyBot](../images/giphy_slash.png){:height="360px" width="630px"}
+![GiphyBot](/images/giphy_slash.png){:height="360px" width="630px"}
 
 * /who: lists user in the current channel or group
-![who](../images/who_slash.png){:height="75px" width="630px"}
+![who](/images/who_slash.png){:height="75px" width="630px"}
 
 
 ## The WeatherBot
