@@ -7,13 +7,12 @@ gems: [jekyll-paginate, jekyll-gist]
 
 # Setup
 title:            Ravi Yadav
-tagline:          'A Jekyll theme'
-description:      ''
-url:
+# description:      "The personal site of Ravi Yadav. Views expressed are my own. Use code at your own risk!"
+url:              http://www.yravi.com
 
-author:
-  name:           'Ravi Yadav'
-  url:            https://twitter.com/raavyadav
+# author:
+#   name:           'Ravi Yadav'
+#   # url:            https://twitter.com/raavyadav
 
 paginate:         5
 
