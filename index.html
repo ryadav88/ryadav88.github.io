@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Writing
 ---
-
+<a href="https://github.com/ryadav88"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -11,12 +11,21 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    {% include readingtime.html %}
+    <span class="post-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</span>
+    <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }} <a href="{{ post.url }}">read more</a></p>
   </div>
+  <hr>
   {% endfor %}
+</div>
+
+<div class="guest_posts">
+  <h3>Guest posts</h3>
+  <a href="https://developer-relations.club/evangelism-the-weather-company-with-ravi-yadav-12a5624cf85e#.k9jr1s4pj">Developer Evangelism at The Weather Company - with Manikantan K, Developer Community Manager at Google</a>
+  <br/><br/>
+  <a href="https://developer.ibm.com/dwblog/how-the-weather-company-delivers-the-worlds-weather/">How The Weather Company delivers the world's weather - IBM DeveloperWorks Blog</a>
+
+
 </div>
 
 <div class="pagination">

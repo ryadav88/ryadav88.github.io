@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Archive
 ---
@@ -11,4 +11,4 @@ title: Archive
   <span class="post-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</span>
   <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
   ***
-{% endfor %}
+{% endfor %} -->
